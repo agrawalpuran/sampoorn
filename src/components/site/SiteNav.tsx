@@ -38,7 +38,7 @@ export function SiteNav() {
           aria-label="Sampoorn home"
         >
           <img src={logo} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
-          <span className="text-2xl font-semibold tracking-tight text-foreground whitespace-nowrap">Sampoorn</span>
+          <span className="text-2xl font-semibold tracking-tight text-foreground whitespace-nowrap"></span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

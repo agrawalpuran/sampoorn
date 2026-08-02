@@ -40,7 +40,7 @@ export function SiteFooter() {
           <div>
             <div className="flex items-center gap-3">
               <img src={logo} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
-              <span className="text-2xl font-semibold tracking-tight text-white/90 whitespace-nowrap">Sampoorn</span>
+              <span className="text-2xl font-semibold tracking-tight text-white/90 whitespace-nowrap"></span>
             </div>
             <p className="serif mt-6 max-w-md text-2xl leading-tight text-white/90">
               Building the digital backbone of modern enterprise.
