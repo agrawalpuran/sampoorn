@@ -95,7 +95,7 @@ function About() {
       </Section>
 
       <Section className="!pt-0">
-        <SectionHeading eyebrow="Journey" title="Twelve years," serifPart="one delivery standard." />
+        <SectionHeading eyebrow="Journey" title="Fifteen years," serifPart="one delivery standard." />
         <ol className="mt-16 relative">
           <div className="space-y-12">
             {TIMELINE.map((t) => (
