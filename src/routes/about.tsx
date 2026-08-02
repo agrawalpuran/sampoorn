@@ -34,12 +34,15 @@ const VALUES = [
 ];
 
 const TIMELINE = [
-  { y: "2015", t: "Founded", d: "A small team of engineers, one enterprise client, one shared belief." },
-  { y: "2016", t: "First managed platform", d: "Ran mission-critical infrastructure for a national telecom." },
-  { y: "2019", t: "Consulting practice", d: "Formalized strategy and architecture advisory for boards." },
-  { y: "2022", t: "Products", d: "Launched HireSure, our first owned enterprise product." },
-  { y: "2025", t: "Global delivery", d: "Nine industries, three continents, one delivery standard." },
-];
+  { y: "2011", t: "Founded", d: "Sampoorn was established with a vision, to provide innovative career development, business consulting, and strategic growth solutions across multiple sectors." },
+  { y: "2013", t: "Higher Education Collaboration", d: "Associated with United Group of Institutions Marketing, Student Outreach, and Campus Development Initiatives, strengthening institutional visibility and student engagement." },
+  { y: "2014", t: "Political Campaign Management", d: "Successfully managed strategic campaign planning, outreach, branding, and promotional activities during the Delhi State Election, demonstrating capabilities in large-scale communication and public engagement." },
+  { y: "2016", t: "Higher Education Collaboration", d: "Partnered with Maharishi University for Digital Marketing, Student Outreach, Branding, and Campus Development Initiatives, strengthening institutional visibility and student engagement." },
+  { y: "2017", t: "Wellness & Social Awareness Initiative", d: "Associated with SRM Foundation to promote Transcendental Meditation (TM) through awareness campaigns, outreach programs, and community engagement initiatives." },
+  { y: "2019", t: "Brand Development", d: "Executed integrated marketing and promotional strategies to enhance brand visibility, customer engagement, and market expansion for Adya Organics." },
+  { y: "2020", t: "Real Estate Marketing", d: "Partnered with World Infracon to deliver marketing, branding, business promotion, and customer acquisition solutions in the real estate sector." },
+  { y: "2021-2026", t: "Expansion & Diversification", d: "Building on over a decade of experience, Sampoorn Solutions has expanded its capabilities across Strategic Business Consulting, Startup & Institutional Growth, Business Transformation Solutions, IT turnkey Projects etc." },
+  ];
 
 function About() {
   return (
