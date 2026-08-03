@@ -41,11 +41,11 @@ const CUSTOMERS = [
 
 function LogoTile({ name, logo }: { name: string; logo: string }) {
   return (
-    <div className="group flex aspect-[2/1] flex-col items-center justify-center gap-2 bg-background p-2 transition-colors">
+    <div className="group flex aspect-[3/2] flex-col items-center justify-center gap-2 bg-background p-2 transition-colors">
       <img
         src={logo}
         alt={`${name} logo`}
-        className="max-h-20 max-w-[95%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
+        className="max-h-28 max-w-[95%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
       />
     </div>
   );
