@@ -45,7 +45,7 @@ function LogoTile({ name, logo }: { name: string; logo: string }) {
       <img
         src={logo}
         alt={`${name} logo`}
-        className="max-h-40 max-w-[95%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
+        className="max-h-50 max-w-[95%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
       />
     </div>
   );
