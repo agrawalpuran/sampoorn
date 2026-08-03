@@ -4,6 +4,14 @@ import customerLogo from "@/assets/customer-placeholder.png.asset.json";
 import skillPassportLogo from "@/assets/skill-passport.png";
 import openSkillLogo from "@/assets/openskill.svg";
 import campusHireLogo from "@/assets/campushire.png";
+import accurateGroupLogo from "@/assets/accurate.webp";
+import confLogo  from "@/assets/conf.webp";
+import mahaLogo  from "@/assets/maha.webp";
+import mlawLogo  from "@/assets/mlaw.webp";
+import moveLogo  from "@/assets/move.webp";
+import muitLogo  from "@/assets/muit.webp";
+import tmLogo  from "@/assets/tm.webp";
+import unitedLogo  from "@/assets/united.webp";
 
 export const Route = createFileRoute("/customers")({
   head: () => ({
@@ -21,15 +29,23 @@ const CUSTOMERS = [
   { name: "Skill Passport", logo: skillPassportLogo},
   { name: "Open Skill Foundation", logo: openSkillLogo},
   { name: "CampusHire", logo: campusHireLogo},
+  { name: "accurateGroupLogo", logo: accurateGroupLogo},
+  { name: "confLogo", logo: confLogo},
+  { name: "mahaLogo", logo: mahaLogo},
+  { name: "mlawLogo", logo: mlawLogo},
+  { name: "moveLogo", logo: moveLogo},
+  { name: "muitLogo", logo: muitLogo},
+  { name: "tmLogo", logo: tmLogo},
+  { name: "unitedLogo", logo: unitedLogo},
 ];
 
 function LogoTile({ name, logo }: { name: string; logo: string }) {
   return (
-    <div className="group flex aspect-[3/2] flex-col items-center justify-center gap-3 bg-background p-8 transition-colors">
+    <div className="group flex aspect-[2/1] flex-col items-center justify-center gap-2 bg-background p-2 transition-colors">
       <img
         src={logo}
         alt={`${name} logo`}
-        className="max-h-20 max-w-[80%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
+        className="max-h-20 max-w-[95%] object-contain opacity-90 transition-opacity group-hover:opacity-100"
       />
     </div>
   );
