@@ -150,11 +150,10 @@ function About() {
       <Section className="!pt-0">
         <StatRow
           items={[
-            { value: "12+", label: "Years in the enterprise" },
-            { value: "40+", label: "Global engagements" },
-            { value: "9", label: "Regulated industries" },
-            { value: "99.99%", label: "Managed service uptime" },
-          ]}
+            { value: "15+", label: "Years in the enterprise" },
+            { value: "10+", label: "Global engagements" },
+            { value: "5", label: "Regulated industries" },
+             ]}
         />
       </Section>
 
