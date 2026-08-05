@@ -151,7 +151,7 @@ function About() {
         <StatRow
           items={[
             { value: "15+", label: "Years in the enterprise" },
-            { value: "10+", label: "Global engagements" },
+            { value: "10+", label: "Engagements" },
             { value: "5", label: "Regulated industries" },
             { value: "100%", label: "Relaibility" },
              ]}
