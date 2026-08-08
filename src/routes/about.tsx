@@ -118,7 +118,13 @@ function About() {
             {
               name: "Alok Verma",
               role: "Managing Director",
-              summary: "Profile summary coming soon.",
+              summary: "Alok Verma is a technology and business leader with over 25 years of experience in IT and Telecommunications, specializing in Telecom OSS/BSS, digital transformation, systems integration, consulting, and technology services.
+
+An Engineering graduate with a Post Graduate Diploma in Advanced Computing, Alok has held leadership and technology roles with organizations including Vodafone UK, RelQ-HP, Intec-CSG-NetCracker-NEC. His extensive experience spans telecom technology, product engineering, enterprise solutions, and large-scale technology transformation programs.
+
+As Managing Director of Sampoorn Solutions, Alok leads the company's strategic vision and growth across IT Services, Education, Consulting, and Engineering. He is passionate about building technology-driven solutions, nurturing talent, fostering strategic partnerships, and creating long-term value for customers and stakeholders.
+
+With a blend of deep technology expertise, global industry experience, and entrepreneurial leadership, Alok's vision is to establish Sampoorn Solutions as a trusted and innovative technology partner in India and global markets.",
             },
             {
               name: "Abhishek Verma",
