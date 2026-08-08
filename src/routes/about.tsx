@@ -118,7 +118,11 @@ function About() {
             {
               name: "Alok Verma",
               role: "Managing Director",
-              summary: "Alok Verma is a technology and business leader with over 25 years of experience in IT and Telecommunications, specializing in Telecom OSS/BSS, digital transformation, systems integration, consulting, and technology services.An Engineering graduate with a Post Graduate Diploma in Advanced Computing, Alok has held leadership and technology roles with organizations including Vodafone UK, RelQ-HP, Intec-CSG-NetCracker-NEC. His extensive experience spans telecom technology, product engineering, enterprise solutions, and large-scale technology transformation programs. As Managing Director of Sampoorn Solutions, Alok leads the company's strategic vision and growth across IT Services, Education, Consulting, and Engineering. He is passionate about building technology-driven solutions, nurturing talent, fostering strategic partnerships, and creating long-term value for customers and stakeholders. With a blend of deep technology expertise, global industry experience, and entrepreneurial leadership, Alok's vision is to establish Sampoorn Solutions as a trusted and innovative technology partner in India and global markets.",
+              summary: `Alok Verma is a technology and business leader with over 25 years of experience in IT and Telecommunications. His expertise spans Telecom OSS/BSS, digital transformation, systems integration, consulting, and enterprise technology services.
+
+An Engineering graduate with a Post Graduate Diploma in Advanced Computing, Alok has held leadership roles at Vodafone UK, RelQ, HP, Intec, CSG, Netcracker, and NEC. He has successfully delivered large-scale technology transformation and product engineering initiatives across global markets.
+
+As Managing Director of Sampoorn Solutions, Alok drives the company's vision across IT Services, Education, Consulting, and Engineering. He is passionate about innovation, strategic partnerships, talent development, and building technology solutions that create lasting value for customers.`,
             },
             {
               name: "Abhishek Verma",
@@ -159,9 +163,9 @@ function About() {
                 <div className="text-xl font-medium tracking-tight">{person.name}</div>
                 <div className="mt-1 text-sm text-muted-foreground">{person.role}</div>
               </div>
-              <p className="mt-6 min-h-32 text-sm leading-relaxed text-muted-foreground">
-                {person.summary}
-              </p>
+              <p className="mt-6 min-h-32 whitespace-pre-line text-[15px] leading-7 text-muted-foreground">
+  {person.summary}
+</p>
             </div>
           ))}
         </div>
