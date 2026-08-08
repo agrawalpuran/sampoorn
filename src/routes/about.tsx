@@ -126,8 +126,28 @@ function About() {
               summary: "Profile summary coming soon.",
             },
             {
-              name: "Nishi Srivastava",
-              role: "Director",
+              name: "Mrityunjay Prajapati",
+              role: "Advisory Board",
+              summary: "Profile summary coming soon.",
+            },
+            {
+              name: "Prof Santosh Kumar",
+              role: "Advisory Board",
+              summary: "Profile summary coming soon.",
+            },
+            {
+              name: "Sonal Verma",
+              role: "Legal",
+              summary: "Profile summary coming soon.",
+            },
+            {
+              name: "Sandeep Dubey",
+              role: "Legal",
+              summary: "Profile summary coming soon.",
+            },
+            {
+              name: "Rajesh Goel",
+              role: "Finance",
               summary: "Profile summary coming soon.",
             },
           ].map((person) => (
